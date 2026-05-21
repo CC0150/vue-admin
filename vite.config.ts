@@ -1,7 +1,7 @@
 import { defineConfig, loadEnv } from "vite";
 import vue from "@vitejs/plugin-vue";
 import path from "path";
-import { viteMockServe } from "vite-plugin-mock";
+
 import ElementPlus from "unplugin-element-plus/vite";
 import AutoImport from "unplugin-auto-import/vite";
 import Components from "unplugin-vue-components/vite";
@@ -24,11 +24,6 @@ export default defineConfig(({ mode }) => {
       }),
       vue(),
 
-      // Mock服务配置 - 开发环境模拟API响应
-      viteMockServe({
-        mockPath: "mock",
-        enable: true,
-      }),
 
       // Element Plus API 自动导入插件
       AutoImport({

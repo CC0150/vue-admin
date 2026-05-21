@@ -15,7 +15,8 @@
 | HTTP 客户端  | Axios 1.12                        |
 | 图表         | ECharts 5 + liquidfill            |
 | CSS 预处理   | Sass                              |
-| Mock         | vite-plugin-mock + mockjs         |
+
+
 
 ## 功能模块
 
@@ -30,7 +31,7 @@
 # 安装依赖
 npm install
 
-# 启动开发服务器（Mock API，自动打开浏览器）
+# 启动开发服务器（自动打开浏览器）
 npm run dev
 
 # 类型检查 + 测试环境构建
@@ -46,7 +47,7 @@ npm run preview
 ## 目录结构
 
 ```
-├── mock/                    # Mock API 数据
+
 ├── public/                  # 静态资源
 ├── src/
 │   ├── apis/                # API 接口层（按模块划分）
