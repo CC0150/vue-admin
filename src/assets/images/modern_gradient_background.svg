@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <!-- 渐变定义 -->
+  <defs>
+    <!-- 主背景渐变 -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#654EA3" />
+      <stop offset="100%" stop-color="#EAAFC8" />
+    </linearGradient>
+    
+    <!-- 装饰性圆形渐变 -->
+    <radialGradient id="circleGradient1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.2)" />
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0)" />
+    </radialGradient>
+    
+    <radialGradient id="circleGradient2" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.15)" />
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0)" />
+    </radialGradient>
+    
+    <!-- 几何形状渐变 -->
+    <linearGradient id="shapeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.1)" />
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0.02)" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 主背景 -->
+  <rect width="100%" height="100%" fill="url(#bgGradient)" />
+  
+  <!-- 装饰性圆形 -->
+  <circle cx="300" cy="200" r="400" fill="url(#circleGradient1)" />
+  <circle cx="1600" cy="800" r="350" fill="url(#circleGradient2)" />
+  <circle cx="800" cy="600" r="300" fill="url(#circleGradient1)" />
+  
+  <!-- 装饰性几何形状 - 左侧 -->
+  <g opacity="0.6">
+    <!-- 矩形网格 -->
+    <rect x="100" y="100" width="100" height="100" fill="url(#shapeGradient)" transform="rotate(-15, 150, 150)" />
+    <rect x="300" y="200" width="80" height="80" fill="url(#shapeGradient)" transform="rotate(10, 340, 240)" />
+    <rect x="200" y="350" width="120" height="120" fill="url(#shapeGradient)" transform="rotate(-5, 260, 410)" />
+    <rect x="400" y="450" width="60" height="60" fill="url(#shapeGradient)" transform="rotate(20, 430, 480)" />
+    
+    <!-- 线条 -->
+    <path d="M50,500 L250,600" stroke="white" stroke-width="1" stroke-opacity="0.3" />
+    <path d="M100,650 L200,750" stroke="white" stroke-width="1" stroke-opacity="0.2" />
+    <path d="M150,400 L350,350" stroke="white" stroke-width="1" stroke-opacity="0.25" />
+  </g>
+  
+  <!-- 装饰性几何形状 - 右侧 -->
+  <g opacity="0.6">
+    <!-- 矩形网格 -->
+    <rect x="1500" y="150" width="100" height="100" fill="url(#shapeGradient)" transform="rotate(15, 1550, 200)" />
+    <rect x="1300" y="250" width="80" height="80" fill="url(#shapeGradient)" transform="rotate(-10, 1340, 290)" />
+    <rect x="1400" y="400" width="120" height="120" fill="url(#shapeGradient)" transform="rotate(5, 1460, 460)" />
+    <rect x="1200" y="500" width="60" height="60" fill="url(#shapeGradient)" transform="rotate(-20, 1230, 530)" />
+    
+    <!-- 线条 -->
+    <path d="M1800,450 L1600,550" stroke="white" stroke-width="1" stroke-opacity="0.3" />
+    <path d="M1750,600 L1650,700" stroke="white" stroke-width="1" stroke-opacity="0.2" />
+    <path d="M1700,350 L1500,300" stroke="white" stroke-width="1" stroke-opacity="0.25" />
+  </g>
+  
+  <!-- 装饰性波浪形状 - 底部 -->
+  <path d="M0,900 Q400,850 800,900 T1600,900 L1920,900 L1920,1080 L0,1080 Z" fill="rgba(255, 255, 255, 0.03)" />
+  <path d="M0,950 Q500,900 1000,950 T1800,950 L1920,950 L1920,1080 L0,1080 Z" fill="rgba(255, 255, 255, 0.02)" />
+  
+  <!-- 装饰性小点 -->
+  <g opacity="0.6">
+    <circle cx="200" cy="100" r="4" fill="white" />
+    <circle cx="250" cy="150" r="3" fill="white" />
+    <circle cx="180" cy="200" r="2" fill="white" />
+    
+    <circle cx="1700" cy="100" r="4" fill="white" />
+    <circle cx="1650" cy="150" r="3" fill="white" />
+    <circle cx="1720" cy="200" r="2" fill="white" />
+    
+    <circle cx="1000" cy="200" r="4" fill="white" />
+    <circle cx="950" cy="250" r="3" fill="white" />
+    <circle cx="1050" cy="280" r="2" fill="white" />
+    
+    <circle cx="500" cy="700" r="4" fill="white" />
+    <circle cx="450" cy="750" r="3" fill="white" />
+    <circle cx="550" cy="780" r="2" fill="white" />
+    
+    <circle cx="1400" cy="700" r="4" fill="white" />
+    <circle cx="1350" cy="750" r="3" fill="white" />
+    <circle cx="1450" cy="780" r="2" fill="white" />
+  </g>
+  
+  <!-- 装饰性三角形 -->
+  <polygon points="500,150 530,200 470,200" fill="white" opacity="0.1" />
+  <polygon points="1400,180 1430,230 1370,230" fill="white" opacity="0.1" />
+  <polygon points="900,600 930,650 870,650" fill="white" opacity="0.08" />
+  
+  <!-- 渐变装饰条纹 -->
+  <g opacity="0.5">
+    <path d="M300,100 L1620,100" stroke="white" stroke-width="1" stroke-opacity="0.1" />
+    <path d="M300,200 L1620,200" stroke="white" stroke-width="1" stroke-opacity="0.08" />
+    <path d="M300,300 L1620,300" stroke="white" stroke-width="1" stroke-opacity="0.06" />
+    
+    <path d="M300,700 L1620,700" stroke="white" stroke-width="1" stroke-opacity="0.06" />
+    <path d="M300,800 L1620,800" stroke="white" stroke-width="1" stroke-opacity="0.08" />
+    <path d="M300,900 L1620,900" stroke="white" stroke-width="1" stroke-opacity="0.1" />
+  </g>
+  
+  <!-- 半透明圆形光晕 -->
+  <circle cx="1000" cy="400" r="200" fill="radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%)" />
+  <circle cx="500" cy="700" r="150" fill="radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%)" />
+  <circle cx="1400" cy="300" r="180" fill="radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%)" />
+</svg>

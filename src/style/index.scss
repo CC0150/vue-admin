@@ -1,0 +1,76 @@
+@import "./reset.scss";
+
+// 默认（非暗黑）模式下，整体浅色背景
+body {
+  background-color: #f5f7fa;
+}
+
+// 当 html 标签有 'dark' 类名时生效
+html.dark {
+  // 设置全局 body 背景为深色，文字为浅色
+  body {
+    background-color: #141414;
+    color: #e5eaf3;
+  }
+
+  // 覆盖 Element Plus 面包屑文字颜色
+  .el-breadcrumb__inner {
+    color: #dbdcde !important; // 强制设为浅色
+
+    // 鼠标悬停时的颜色保持主色调
+    &:hover {
+      color: var(--el-color-primary) !important;
+    }
+  }
+
+  // 覆盖面包屑箭头分隔符颜色
+  .el-breadcrumb__separator {
+    color: #a6a9ad !important;
+  }
+
+  // 覆盖右上角下拉菜单文字颜色 (用户名)
+  .el-dropdown-link {
+    color: #e5eaf3 !important;
+  }
+
+  // 暗黑模式下的侧边栏与菜单（效果参考 YM-Admin）
+  .layout {
+    .el-aside {
+      background-color: #111827; // 接近纯黑的深色
+      border-right: none;
+    }
+  }
+
+  .el-menu {
+    background-color: #111827;
+    border-right: none;
+
+    .el-menu-item,
+    .el-sub-menu__title {
+      color: #e5eaf3;
+      &:hover {
+        background-color: rgba(59, 130, 246, 0.12); // 鼠标移上浅蓝高亮
+      }
+    }
+
+    // 当前激活菜单，整行高亮为主色块
+    .el-menu-item.is-active {
+      background-color: #409eff;
+      color: #ffffff;
+
+      .el-icon,
+      span {
+        color: #ffffff;
+      }
+    }
+  }
+
+  .el-main {
+    background-color: #141414 !important;
+  }
+
+  // 暗黑模式下 Logo 文本调亮，避免与深色背景融在一起
+  .layout .logo {
+    color: #e5eaf3;
+  }
+}
