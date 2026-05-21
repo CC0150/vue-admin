@@ -1,6 +1,6 @@
 <template>
   <div class="logo">
-    <img v-if="setting.showLogo" src="../../../public/logo.png" alt="logo" />
+    <img v-if="setting.showLogo" src="/logo.svg" alt="logo" />
     <p v-if="!isFold">{{ setting.title }}</p>
   </div>
 </template>
