@@ -5,7 +5,7 @@ import type {
   loginResponseData,
   userInfoResponseData,
 } from "@/apis/user/type";
-import { ref } from "vue";
+import { ref, shallowRef } from "vue";
 import { constantRoutes, asyncRoute, anyRoute } from "@/router/routes";
 import type { RouteRecordRaw } from "vue-router";
 import router from "@/router";
@@ -35,7 +35,7 @@ const filterAsyncRoutes = (asyncRoutes: RouteRecordRaw[], routes: string[]) => {
 export const useUserStore = defineStore("user", () => {
   let token = ref<string>(GET_TOKEN() || "");
   // 菜单路由
-  let menuRoutes = ref<RouteRecordRaw[]>(constantRoutes);
+  let menuRoutes = shallowRef<RouteRecordRaw[]>(constantRoutes);
   // 记住密码状态
   let rememberMe = ref<boolean>(false);
   // 登录表单数据

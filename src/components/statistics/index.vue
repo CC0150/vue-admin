@@ -1,12 +1,7 @@
 <template>
   <section class="statistics">
     <div class="statistics-grid">
-      <article
-        v-for="(item, index) in stats"
-        :key="index"
-        class="stat-card"
-        :class="`stat-card--${item.type}`"
-      >
+      <article v-for="(item, index) in stats" :key="index" class="stat-card" :class="`stat-card--${item.type}`">
         <div class="stat-card__accent" :style="{ background: item.color }" />
         <div class="stat-card__inner">
           <div class="stat-card__icon-wrap" :style="{ background: item.color }">
@@ -27,7 +22,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
+import { shallowRef } from 'vue';
 import { View, User, Goods, Money } from '@element-plus/icons-vue';
 
 interface StatItem {
@@ -40,7 +35,7 @@ interface StatItem {
   trendUp?: boolean;
 }
 
-const stats = ref<StatItem[]>([
+const stats = shallowRef<StatItem[]>([
   {
     title: '今日访问',
     value: '2,890',
