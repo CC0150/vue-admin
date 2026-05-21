@@ -5,7 +5,7 @@ import router from './router'
 import './style/index.scss'
 // 按需导入图标（仅注册项目实际使用的图标，约 31 个，而非全量 ~300 个）
 import {
-  Expand, Fold, Refresh, FullScreen, Setting, ArrowRight, Moon, Sunny,
+  Expand, Fold, Refresh, FullScreen, Setting, ArrowRight, ArrowDown, Moon, Sunny,
   Promotion, HomeFilled, Warning, Platform, Lock, User, UserFilled,
   Monitor, Goods, ShoppingCartFull, ChromeFilled, Calendar, Orange, DataLine,
   Plus, Edit, Delete, Bottom, Top, InfoFilled, View, Money,
