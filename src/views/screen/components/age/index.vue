@@ -2,7 +2,7 @@
   <div class="box2">
     <div class="title">
       <p>价格区间分析</p>
-      <img src="../../images/dataScreen-title.png" alt="">
+      <img src="../../images/dataScreen-title.webp" alt="">
     </div>
     <div class="charts" ref="charts"></div>
   </div>
@@ -67,7 +67,7 @@ onMounted(() => {
 .box2 {
   width: 100%;
   height: 100%;
-  background: url(../../images/dataScreen-main-cb.png) no-repeat;
+  background: url(../../images/dataScreen-main-cb.webp) no-repeat;
   background-size: 100% 100%;
 
   .title {

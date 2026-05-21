@@ -1,7 +1,7 @@
 <template>
   <div class="box8">
     <div class="title">
-      <p>商品销售维度分析</p> <img src="../../images/dataScreen-title.png" alt="">
+      <p>商品销售维度分析</p> <img src="../../images/dataScreen-title.webp" alt="">
     </div>
     <div class="charts" ref="charts"></div>
   </div>
@@ -53,7 +53,7 @@ onMounted(() => {
 .box8 {
   width: 100%;
   height: 100%;
-  background: url(../../images/dataScreen-main-cb.png) no-repeat;
+  background: url(../../images/dataScreen-main-cb.webp) no-repeat;
   background-size: 100% 100%;
   margin-top: 10px;
 

@@ -2,7 +2,7 @@
     <div class="box6">
         <div class="title">
             <p>热门商品排行</p>
-            <img src="../../images/dataScreen-title.png" alt="">
+            <img src="../../images/dataScreen-title.webp" alt="">
         </div>
         <div class="charts" ref='charts'></div>
     </div>
@@ -84,7 +84,7 @@ onMounted(() => {
 .box6 {
     width: 100%;
     height: 100%;
-    background: url(../../images/dataScreen-main-cb.png) no-repeat;
+    background: url(../../images/dataScreen-main-cb.webp) no-repeat;
     background-size: 100% 100%;
     margin: 20px 0px;
 

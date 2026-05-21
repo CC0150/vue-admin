@@ -2,7 +2,7 @@
     <div class="box5">
         <div class="title">
             <p>未来七天商品销售趋势图</p>
-            <img src="../../images/dataScreen-title.png" alt="">
+            <img src="../../images/dataScreen-title.webp" alt="">
         </div>
         <div class="charts" ref='line'></div>
     </div>
@@ -95,7 +95,7 @@ onMounted(() => {
 .box5 {
     width: 100%;
     height: 100%;
-    background: url(../../images/dataScreen-main-cb.png) no-repeat;
+    background: url(../../images/dataScreen-main-cb.webp) no-repeat;
     background-size: 100% 100%;
     margin: 0px 20px;
 

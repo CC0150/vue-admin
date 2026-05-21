@@ -61,7 +61,7 @@ onMounted(() => {
 .container {
   width: 100vw;
   height: 100vh;
-  background: url(./images/bg.png) no-repeat;
+  background: url(./images/bg.webp) no-repeat;
   background-size: cover;
 
   .screen {

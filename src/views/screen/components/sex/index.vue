@@ -2,14 +2,14 @@
   <div class="box1">
     <div class="title">
       <p>男女比例</p>
-      <img src="../../images/dataScreen-title.png" alt="">
+      <img src="../../images/dataScreen-title.webp" alt="">
     </div>
     <div class="sex">
       <div class="man">
-        <img src="../../images/man.png" alt="">
+        <img src="../../images/man.webp" alt="">
       </div>
       <div class="women">
-        <img src="../../images/woman.png" alt="">
+        <img src="../../images/woman.webp" alt="">
       </div>
     </div>
     <div class="rate">
@@ -88,7 +88,7 @@ onMounted(() => {
 .box1 {
   width: 100%;
   height: 100%;
-  background: url(../../images/dataScreen-main-cb.png) no-repeat;
+  background: url(../../images/dataScreen-main-cb.webp) no-repeat;
   background-size: 100% 100%;
   margin: 20px 0px;
 
@@ -110,7 +110,7 @@ onMounted(() => {
       margin: 20px;
       width: 111px;
       height: 115px;
-      background: url(../../images/man-bg.png) no-repeat;
+      background: url(../../images/man-bg.webp) no-repeat;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -120,7 +120,7 @@ onMounted(() => {
       margin: 20px;
       width: 111px;
       height: 115px;
-      background: url(../../images/woman-bg.png) no-repeat;
+      background: url(../../images/woman-bg.webp) no-repeat;
       display: flex;
       justify-content: center;
       align-items: center;
