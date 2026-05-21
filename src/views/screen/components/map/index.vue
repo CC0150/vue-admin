@@ -4,7 +4,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
-import * as echarts from 'echarts';
+import echarts from '@/utils/echarts';
 import chinaJSON from './china.json'
 
 let map = ref();

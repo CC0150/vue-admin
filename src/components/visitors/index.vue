@@ -11,7 +11,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted, onBeforeUnmount, watch, nextTick } from 'vue';
-import * as echarts from 'echarts';
+import echarts from '@/utils/echarts';
 import { useSettingStore } from '@/store/modules/setting'; // 引入 Store
 
 const settingStore = useSettingStore();

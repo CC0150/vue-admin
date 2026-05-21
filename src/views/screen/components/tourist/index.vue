@@ -14,9 +14,7 @@
 
 <script setup lang='ts'>
 import { onMounted, ref } from 'vue';
-import * as echarts from 'echarts';
-//引入水球图
-import 'echarts-liquidfill'
+import echarts from '@/utils/echarts';
 const num = ref('216908件');
 
 const charts = ref();

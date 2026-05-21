@@ -9,7 +9,7 @@
 </template>
 
 <script setup lang="ts">
-import * as echarts from 'echarts';
+import echarts from '@/utils/echarts';
 import { ref, onMounted } from 'vue';
 let charts = ref();
 onMounted(() => {

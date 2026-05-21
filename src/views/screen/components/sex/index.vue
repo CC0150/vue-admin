@@ -22,7 +22,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
-import * as echarts from 'echarts';
+import echarts from '@/utils/echarts';
 //获取图形图标的DOM节点
 let charts = ref();
 onMounted(() => {
